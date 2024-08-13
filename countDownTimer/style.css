@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.hours input, 
+.seconds input, 
+.minutes input{
+    border: none;
+    outline: none;
+    font-size: 3em;
+    width: 70px;
+}
+
+span{
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.stop{
+    display: none;
+}
+
+.start{
+    background-color: lightgreen;
+}
+
+.reset{
+    background-color: lightcoral;
+}
+
+.button-controls{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    padding: 10px 40px 10px 40px;
+    border: none;
+}
